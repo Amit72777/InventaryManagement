@@ -1,5 +1,4 @@
 from fastapi import APIRouter, Depends
-
 from database.db import get_db
 from . schemas import UserRead, UserCreate, UserUpdate
 from . import views
